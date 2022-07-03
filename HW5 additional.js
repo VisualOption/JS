@@ -71,7 +71,7 @@ const age3 = 60
 const checkAge = function(age){
     if (age && !isNaN(age)){
         if (age <age2){
-            console.log("You don’t have access cause your age is " + age_1 + " It’s less then ")
+            console.log("You don’t have access cause your age is " + age + " It’s less then ")
         }
         else if (age >= age2 && age < age3){
             console.log("Welcome  !")
@@ -89,6 +89,7 @@ const checkAge = function(age){
 let a = prompt("Enter your age")
 
 checkAge(a)
+// checkAge(17)
 
 // function task1(age_1 = prompt('Enter 1st age', 17)){
 //     if (typeof(age_1 && age_2 && age_3) !== 'number'){
