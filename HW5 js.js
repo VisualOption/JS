@@ -21,8 +21,8 @@ item_6_type = typeof(item_6)
 // console.log(item_6_type)
 
 console.log("item_6 == ", typeof(item_6), "item_6_type ==", typeof(item_6_type))
-let item_7 = toString(item_6)
-// console.log(typeof(item_7))
+let item_7 = item_6.toString()
+// console.log(typeof(item_7), item_7)
 
 let item_7_type = typeof(item_7)
 console.log("item_7 == ", typeof(item_7), "item_7_type == ", typeof(item_7_type))
